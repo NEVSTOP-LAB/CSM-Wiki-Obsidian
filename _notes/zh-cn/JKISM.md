@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: note
 title: JKISM
 lang: zh-cn
 permalink: /JKISM
