@@ -6,7 +6,8 @@ layout: default
   {{ content }}
 </content>
 
-<!-- introduce per-page mermaid support -->
-{% if page.mermaid %}
-    {% include mermaid.html %}
-{% endif %}
+<side style="font-size: 0.9em">
+  <div>
+    {%- include recent_notes.html -%}
+  </div>
+</side>
