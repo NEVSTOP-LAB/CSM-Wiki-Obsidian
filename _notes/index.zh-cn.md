@@ -16,8 +16,8 @@ permalink: /
 
 可通信状态机（CSM）是一个基于JKI状态机（[[JKISM]]）的 LabVIEW 应用框架。它遵循 [[JKISM]] 的模式，扩展了关键词以描述模块之间的消息通信，包括[[同步消息]]、[[异步消息]]、[[状态订阅/取消订阅]]等概念-这些是创建可重用代码模块所必需的要素。
 
-<style>
+<!-- <style>
   .wrapper {
     max-width: 46em;
   }
-</style>
+</style> -->

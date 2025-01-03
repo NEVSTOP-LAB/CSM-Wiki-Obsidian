@@ -15,8 +15,8 @@ Communicable State Machine(CSM) is a LabVIEW application framework that builds u
 
 Communicable State Machine(CSM) is a LabVIEW application framework that builds upon JKI State Machine(JKISM). It follows the pattern of JKISM and extends the keywords to describe message communication between modules, including concepts such as Sync-Message, Async-Message, Subscription/Unsubscription of status - essential elements for creating reusable code modules.
 
-<style>
+<!-- <style>
   .wrapper {
     max-width: 46em;
   }
-</style>
+</style> -->
