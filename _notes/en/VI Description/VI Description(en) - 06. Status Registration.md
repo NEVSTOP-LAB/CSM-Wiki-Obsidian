@@ -1,6 +1,6 @@
 # CSM API
 
-## Status Subscription Management (×´Ì¬¶©ÔÄ¹ÜÀí)
+## Status Subscription Management
 
 ### CSM - Register Status Change.vi
 
