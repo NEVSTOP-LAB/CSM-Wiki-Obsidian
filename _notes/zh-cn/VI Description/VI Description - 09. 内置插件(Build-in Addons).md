@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-09-build-in-addons
+lang: zh-cn
+permalink: /csm-api/09-build-in-addons
 ---
 
 ## 内置插件(Build-in Addons)

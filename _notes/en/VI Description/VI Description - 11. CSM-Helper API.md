@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-11-CSMHelper
 lang: en
+permalink: /csm-api/11-CSMHelper
 ---
 
 ## CSM-Helper API

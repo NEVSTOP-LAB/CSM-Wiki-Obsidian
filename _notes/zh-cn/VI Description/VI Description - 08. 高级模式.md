@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-08-advance-modes
+lang: zh-cn
+permalink: /csm-api/08-advance-modes
 ---
 
 > [!NOTE] 名称拼接API

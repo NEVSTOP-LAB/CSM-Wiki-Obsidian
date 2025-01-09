@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-01-templates
+lang: zh-cn
+permalink: /csm-api/01-templates
 ---
 
 ## 模板(Templates)

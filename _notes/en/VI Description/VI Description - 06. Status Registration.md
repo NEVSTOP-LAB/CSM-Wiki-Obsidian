@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-06-status-registration
 lang: en
+permalink: /csm-api/06-status-registration
 ---
 
 ## Status Subscription Management

@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-03-arguments
 lang: en
+permalink: /csm-api/03-arguments
 ---
 
 ## Arguments

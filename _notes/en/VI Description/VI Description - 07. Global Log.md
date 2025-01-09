@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-07-global-log
 lang: en
+permalink: /csm-api/07-global-log
 ---
 
 ## Global Log

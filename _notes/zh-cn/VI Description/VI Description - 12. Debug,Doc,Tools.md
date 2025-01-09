@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-12-Debug-Doc-Tools
+lang: zh-cn
+permalink: /csm-api/12-Debug-Doc-Tools
 ---
 
 ## Documentation

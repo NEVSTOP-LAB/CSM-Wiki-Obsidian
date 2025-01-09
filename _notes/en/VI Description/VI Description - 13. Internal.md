@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-01-templates
 lang: en
+permalink: /csm-api/13-internal
 ---
 
 ## CSM Internal

@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-03-arguments
+lang: zh-cn
+permalink: /csm-api/03-arguments
 ---
 
 ## 参数(Arguments)

@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-02-core-functions
+lang: zh-cn
+permalink: /csm-api/02-core-functions
 ---
 
 ## 核心功能(Core Functions)

@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-07-global-log
+lang: zh-cn
+permalink: /csm-api/07-global-log
 ---
 
 ## 全局日志(Global Log)

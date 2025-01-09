@@ -1,5 +1,9 @@
 ---
-lang: en
+layout: page
+title: CSM API
+id: csm-api-06-status-registration
+lang: zh-cn
+permalink: /csm-api/06-status-registration
 ---
 
 ## 状态订阅管理(Status Registration)

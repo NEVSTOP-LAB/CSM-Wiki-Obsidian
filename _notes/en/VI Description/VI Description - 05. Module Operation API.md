@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-05-module-operation-api
 lang: en
+permalink: /csm-api/05-module-operation-api
 ---
 
 ## Module Operation API

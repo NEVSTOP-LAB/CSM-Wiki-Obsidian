@@ -1,5 +1,9 @@
 ---
+layout: page
+title: CSM API
+id: csm-api-10-utility-vis
 lang: en
+permalink: /csm-api/10-utility-vis
 ---
 
 ## Utility VIs
