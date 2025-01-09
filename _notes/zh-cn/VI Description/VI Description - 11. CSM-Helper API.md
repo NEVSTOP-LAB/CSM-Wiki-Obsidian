@@ -1,4 +1,6 @@
-# CSM API
+---
+lang: en
+---
 
 ## CSM-Helper API
 

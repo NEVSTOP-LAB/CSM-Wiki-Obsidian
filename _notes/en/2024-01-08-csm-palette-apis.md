@@ -16,7 +16,9 @@ _**CSM API**_
 
 ![csm-palette](https://nevstop-lab.github.io/CSM-Wiki/assets/img/CSM%20Palette.png)
 
-# CSM API
+---
+lang: en
+---
 
 ## Template Palette
 

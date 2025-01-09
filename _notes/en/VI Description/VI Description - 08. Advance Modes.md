@@ -1,4 +1,6 @@
-# CSM API
+---
+lang: en
+---
 
 > [!NOTE] Name Concatenation API
 > This VI only operates on the module name string and has no actual functionality. Therefore, once familiar with CSM rules, you can directly input the corresponding name string and rule symbols without necessarily calling this API.

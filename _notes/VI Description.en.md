@@ -6,9 +6,7 @@ lang: en
 permalink: /csm-api
 ---
 
-# CSM API
-
- - [01. Templates](./en/VI%20Description/VI%20Description%20-%2001.%20Templates.md)
+- [01. Templates](./en/VI%20Description/VI%20Description%20-%2001.%20Templates.md)
 - [02. Core Functions](./en/VI%20Description/VI%20Description%20-%2002.%20Core%20Functions.md)
 - [03. Arguments](./en/VI%20Description/VI%20Description%20-%2003.%20Arguments.md)
 - [04. Management API](./en/VI%20Description/VI%20Description%20-%2004%20.Management%20API.md)

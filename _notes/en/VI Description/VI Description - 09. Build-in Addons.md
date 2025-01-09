@@ -1,4 +1,6 @@
-# CSM API
+---
+lang: en
+---
 
 ## Built-in Addons
 

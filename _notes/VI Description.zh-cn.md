@@ -6,8 +6,6 @@ lang: en
 permalink: /csm-api
 ---
 
-# CSM API
-
 - [01. 模板(Templates)](./zh-cn/VI%20Description/VI%20Description%20-%2001.%20模板(Templates).md)
 - [02. 核心功能(Core Functions)](./zh-cn/VI%20Description/VI%20Description%20-%2002.%20核心功能(Core%20Functions).md)
 - [03. 参数(Arguments)](./zh-cn/VI%20Description/VI%20Description%20-%2003.%20参数(Arguments).md)

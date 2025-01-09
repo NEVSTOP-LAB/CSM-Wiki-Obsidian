@@ -1,4 +1,6 @@
-# CSM API
+---
+lang: en
+---
 
 ## 内置插件(Build-in Addons)
 
