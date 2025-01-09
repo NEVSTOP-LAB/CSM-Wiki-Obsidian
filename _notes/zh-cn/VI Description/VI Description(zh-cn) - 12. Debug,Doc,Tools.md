@@ -10,7 +10,7 @@
 
 ### CSM Dummy Module.vi
 
--- <b>ÊäÈë¿Ø¼ş</b> --
+-- <b>è¾“å…¥æ§ä»¶</b> --
 - <b>Init State("Macro: Initialize")</b>:
 - <b>Name("" to use uuid)</b>:
 
@@ -34,17 +34,17 @@
 
 ### csmdoc_import_all_csm_VI_description_doc.vi
 
-Ñ¡Ôñ CSM VI ¹¦ÄÜÃèÊöµÄ markdown ÎÄ¼ş£¬µ¼Èëµ½ËùÓĞµÄVI¡£
+é€‰æ‹© CSM VI åŠŸèƒ½æè¿°çš„ markdown æ–‡ä»¶ï¼Œå¯¼å…¥åˆ°æ‰€æœ‰çš„VIã€‚
 
 -- <b>Controls</b> --
-- <b>Path</b>: CSM VI ¹¦ÄÜÃèÊöµÄ markdown ÎÄ¼şÂ·¾¶
+- <b>Path</b>: CSM VI åŠŸèƒ½æè¿°çš„ markdown æ–‡ä»¶è·¯å¾„
 
 ### csmdoc_export_all_csm_VI_description_doc.vi
 
-·ÖÎöËùÓĞCSM VI, ½« VI ¹¦ÄÜÃèÊöµ¼³öµ½ markdown ÎÄ¼şÖĞ¡£
+åˆ†ææ‰€æœ‰CSM VI, å°† VI åŠŸèƒ½æè¿°å¯¼å‡ºåˆ° markdown æ–‡ä»¶ä¸­ã€‚
 
 -- <b>Controls</b> --
-- <b>Path</b>: CSM VI ¹¦ÄÜÃèÊöµÄ markdown ÎÄ¼şÂ·¾¶
+- <b>Path</b>: CSM VI åŠŸèƒ½æè¿°çš„ markdown æ–‡ä»¶è·¯å¾„
 
 ### csmdoc_export_VI_description.vi
 

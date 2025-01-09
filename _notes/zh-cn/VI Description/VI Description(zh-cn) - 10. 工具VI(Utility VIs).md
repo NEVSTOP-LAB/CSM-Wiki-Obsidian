@@ -1,199 +1,199 @@
 # CSM API
 
-## ����VI(Utility VIs)
+## 工具VI(Utility VIs)
 
 ### CSM - Compact Multiple States.vi
 
-�����״̬���ճɵ����ַ����Թ�����ʹ��
+将多个状态紧凑成单个字符串以供输入使用
 
--- <b>����ؼ�</b> --
-- <b>Multiple States</b>: CSM״̬�ַ�������
+-- <b>输入控件</b> --
+- <b>Multiple States</b>: CSM状态字符串数组
 
--- <b>����ؼ�</b> --
-- <b>States</b>: ��������CSM״̬�ַ������ַ���
+-- <b>输出控件</b> --
+- <b>States</b>: 包含多行CSM状态字符串的字符串
 
 ### CSM - Break Down Multiple States String.vi
 
-����������CSM״̬�ַ������ַ����и��CSM״̬�ַ�������
+将包含多行CSM状态字符串的字符串切割成CSM状态字符串数组
 
--- <b>����ؼ�</b> --
-- <b>States</b>: ��������CSM״̬�ַ������ַ���
+-- <b>输入控件</b> --
+- <b>States</b>: 包含多行CSM状态字符串的字符串
 
--- <b>����ؼ�</b> --
-- <b>Multiple States</b>: CSM״̬�ַ�������
+-- <b>输出控件</b> --
+- <b>Multiple States</b>: CSM状态字符串数组
 
 ### CSM - Build Exit Messages of CSMs.vi
 
-����CSMģ�����ƣ�ƴ�������˳���Ϣ("Macro: Exit")��
+输入CSM模块名称，拼接生成退出消息("Macro: Exit")。
 
-> Ref: ��Ϣƴ��API
+> Ref: 消息拼接API
 
--- <b>����ؼ�</b> --
-- <b>CSMs</b>: CSMģ����������
-- <b>State with Arguments("Macro: Exit��)</b>: �˳���Ϣ
+-- <b>输入控件</b> --
+- <b>CSMs</b>: CSM模块名称数组
+- <b>State with Arguments("Macro: Exit“)</b>: 退出消息
 
--- <b>����ؼ�</b> --
-- <b>States</b>: ƴ�����ɵ�CSM��Ϣ�ַ���
+-- <b>输出控件</b> --
+- <b>States</b>: 拼接生成的CSM消息字符串
 
 ### CSM - Filter Duplicate Messages By Name.vi
 
-�����ظ�����Ϣ��ֻ�������µ���Ϣ��
+过滤重复的消息，只保留最新的消息。
 
-> Ref: ��Ϣƴ��API
+> Ref: 消息拼接API
 
--- <b>����ؼ�</b> --
-- <b>States</b>: �������Ϣ�ַ���
-- <b>Whole Messages in Check?(T)</b>: �Ƿ���������Ϣ�ַ���������� FALSE����ֻ�����Ϣ���ơ�
+-- <b>输入控件</b> --
+- <b>States</b>: 输入的消息字符串
+- <b>Whole Messages in Check?(T)</b>: 是否检查整个消息字符串。如果是 FALSE，则只检查消息名称。
 
--- <b>����ؼ�</b> --
-- <b>Filtered States</b>: ���˺����Ϣ�ַ���
+-- <b>输出控件</b> --
+- <b>Filtered States</b>: 过滤后的消息字符串
 
 ### CSM - Filter Messages to Non-Existing Modules.vi
 
-���˷��͸������ڵ�ģ�����Ϣ��
-���VI�л�ʹ�� CSM - List Modules.vi ��ȡ���л��CSMģ�飬Ȼ����˵����͸�������ģ�����Ϣ��
+过滤发送给不存在的模块的消息。
+这个VI中会使用 CSM - List Modules.vi 获取所有活动的CSM模块，然后过滤掉发送给不存在模块的消息。
 
--- <b>����ؼ�</b> --
-- <b>States</b>: �������Ϣ�ַ���
+-- <b>输入控件</b> --
+- <b>States</b>: 输入的消息字符串
 
--- <b>����ؼ�</b> --
-- <b>Filtered States</b>: ���˺����Ϣ�ַ���
+-- <b>输出控件</b> --
+- <b>Filtered States</b>: 过滤后的消息字符串
 
 ### CSM - Remove Duplicated Following Messages.vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Current State</b>:
 - <b>Remaining States</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>Remaining States Left</b>:
 
 ### CSM Data Type String to Enum.vi
 
 ### CSM Data Type String.vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Data</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>Data Type String</b>:
 
 ### Replace Tag with Array.vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Enum</b>:
 - <b>replace string</b>:
 - <b>single-line text</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>States</b>:
 
 ### CSM Data Type String to Enum(RefnumEnum).vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Data Type String</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>Array Dim</b>:
 - <b>Secondary Type</b>:
 - <b>Primary Type</b>:
 
 ### CSM Data Type String to Enum(String).vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Data Type String</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>Array Dim</b>:
 - <b>Secondary Type String</b>:
 - <b>Primary Type</b>:
 
 ### CSM Data Type String to Enum(TypeEnum).vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>Data Type String</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>Array Dim</b>:
 - <b>Secondary Type</b>:
 - <b>Primary Type</b>:
 
 ### Build Error Cluster.vi
 
-����һ�������(error cluster)���Ա�׼ LabVIEW �ķ�ʽ�ӵ��� VI �ĵ������й���Դ�ַ�����������Դ�ַ�����ʽΪ��
-"<B>���õ� VI</B> �� <B>���� VI �ĵ�����</B>-><B>���� VI �ĵ����ߵĵ�����</B>->�ȵ�...->�ȵ�..."
-��ѡ�� 'String to Prepend to source ("")' �ַ��������������Դ�ַ��������Ӷ����������Ϣ�������������ַ����������������������������ӵ�Դ�ַ���֮ǰ��
+创建一个错误簇(error cluster)，以标准 LabVIEW 的方式从调用 VI 的调用链中构建源字符串。构建的源字符串形式为：
+"<B>调用的 VI</B> 在 <B>调用 VI 的调用者</B>-><B>调用 VI 的调用者的调用者</B>->等等...->等等..."
+可选的 'String to Prepend to source ("")' 字符串输入可用于在源字符串中添加额外的描述信息。如果存在这个字符串，它将用括号括起来，并添加到源字符串之前。
 
--- <b>����ؼ�</b> --
-- <b>code</b>: ������
-- <b>String to Prepend to source ("")</b>: ������Ϣ�ַ���
+-- <b>输入控件</b> --
+- <b>code</b>: 错误码
+- <b>String to Prepend to source ("")</b>: 错误信息字符串
 
 ### Build Internal State String.vi
 
-�������� JKI ״̬��״̬����������Ϣ���ַ�����
+构建包含 JKI 状态机状态、参数等信息的字符串。
 
--- <b>����ؼ�</b> --s
-- <b>State</b>: ״̬�ַ���
-- <b>Arguments ("")</b>: <b>State</b>�Ĳ���
-- <b>Arg-State ("")</b>: ���ʹ���Ϣ��ģ���ڷ��ʹ���Ϣʱ���ڵ�״̬
-- <b>Source ("")</b>: ���ʹ���Ϣ��ģ������
+-- <b>输入控件</b> --s
+- <b>State</b>: 状态字符串
+- <b>Arguments ("")</b>: <b>State</b>的参数
+- <b>Arg-State ("")</b>: 发送此消息的模块在发送此消息时处于的状态
+- <b>Source ("")</b>: 发送此消息的模块名称
 
--- <b>����ؼ�</b> --
-- <b>CSM Message String</b>: ƴ�����ɵ� CSM ��Ϣ�ַ���
+-- <b>输出控件</b> --
+- <b>CSM Message String</b>: 拼接生成的 CSM 消息字符串
 
 ### String History Cacher.vi
 
-���浱ǰ������ַ��������棬�������ʷ�ַ�������������󳤶�����ʱ�����Ƚ���Ļ����ַ����������ǡ����ڵ���CSM����ʷ״̬��
+保存当前输入的字符串到缓存，缓存的历史字符串，当超出最大长度限制时，最先进入的缓存字符串将被覆盖。用于调试CSM的历史状态。
 
--- <b>����ؼ�</b> --
-- <b>String</b>: �������ַ���
-- <b>length</b>: �������ʷ�ַ�������ַ�������
-- <b>Include Timestamp(F)</b>: �Ƿ���ÿ�п�ͷ����ʱ�����
+-- <b>输入控件</b> --
+- <b>String</b>: 待缓存字符串
+- <b>length</b>: 缓存的历史字符串最大字符串长度
+- <b>Include Timestamp(F)</b>: 是否在每行开头包含时间戳。
 
--- <b>����ؼ�</b> --
-- <b>String Cache</b>: �������ʷ�ַ���
+-- <b>输出控件</b> --
+- <b>String Cache</b>: 缓存的历史字符串
 
 ### Trim Both Whitespace.vi
 
-��ͷ����β������ͬʱ�Ƴ����� ASCII �հ��ַ�(�ո��Ʊ������س��ͻ���)��
+开头、结尾或两者同时移除所有 ASCII 空白字符(空格、制表符、回车和换行)。
 
--- <b>����ؼ�</b> --
-- <b>string</b>: �������ַ���
+-- <b>输入控件</b> --
+- <b>string</b>: 待处理字符串
 
--- <b>����ؼ�</b> --
-- <b>trimmed string</b>: ��������ַ���
+-- <b>输出控件</b> --
+- <b>trimmed string</b>: 处理后的字符串
 
 ### uuid.vi
 
-���ݱ�׼�������� <b>Universally Unique Identifier(UUID)</b>�� ����:
+根据标准方法生成 <b>Universally Unique Identifier(UUID)</b>。 例如:
 - 59703F3AD837
 - 106A470BA5EC
 - 9B781DB313AF
 
--- <b>����ؼ�</b> --
-- <b>UUID</b>: ���ɵ� UUID
+-- <b>输出控件</b> --
+- <b>UUID</b>: 生成的 UUID
 
 ### Random Change Flag.vi
 
-����һ���������ֵ�����ڱ��״̬�ı仯��CSM��Ϊ�����Ч�ʣ���Щ�ط��Ļ���(cache)�������������ж��Ƿ���Ҫ���¡�
+生成一个随机的数值，用于标记状态的变化，CSM中为了提高效率，有些地方的缓存(cache)利用这个标记来判断是否需要更新。
 
--- <b>����ؼ�</b> --
-- <b>Random Change Flag</b>: ���ɵ������ֵ
+-- <b>输出控件</b> --
+- <b>Random Change Flag</b>: 生成的随机数值
 
 ### Global Log To String.vi
 
-ȫ����־(Global Log)���ݴ�ת��Ϊ�ַ�����
+全局日志(Global Log)数据簇转换为字符串。
 
--- <b>����ؼ�</b> --
-- <b>Log</b>: ȫ����־���ݴ�
+-- <b>输入控件</b> --
+- <b>Log</b>: 全局日志数据簇
 
--- <b>����ؼ�</b> --
-- <b>Log String</b>: ȫ����־�ַ���
+-- <b>输出控件</b> --
+- <b>Log String</b>: 全局日志字符串
 
 ### U8 Data to Hex Str.vi
 
--- <b>����ؼ�</b> --
+-- <b>输入控件</b> --
 - <b>u8 Data[]</b>:
 
--- <b>����ؼ�</b> --
+-- <b>输出控件</b> --
 - <b>HEX String (0-9,A-F)</b>:

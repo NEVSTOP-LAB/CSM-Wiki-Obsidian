@@ -1,75 +1,75 @@
 # CSM API
 
-## ×´Ì¬¶©ÔÄ¹ÜÀí(Status Registration)
+## çŠ¶æ€è®¢é˜…ç®¡ç†(Status Registration)
 
 ### CSM - Register Status Change.vi
 
-×¢²áÒÔ½ÓÊÕÆäËûCSMÄ£¿é×´Ì¬¸ü¸ÄµÄÍ¨Öª¡£Èç¹ûÎ´Á¬½Ó ¡°Response Message¡± »òÊäÈëÎª¿Õ£¬Ôò½«Ê¹ÓÃÏàÍ¬µÄ<b>Status</b> Ãû³Æ×÷ÎªÏìÓ¦ÏûÏ¢¡£
+æ³¨å†Œä»¥æ¥æ”¶å…¶ä»–CSMæ¨¡å—çŠ¶æ€æ›´æ”¹çš„é€šçŸ¥ã€‚å¦‚æœæœªè¿æ¥ â€œResponse Messageâ€ æˆ–è¾“å…¥ä¸ºç©ºï¼Œåˆ™å°†ä½¿ç”¨ç›¸åŒçš„<b>Status</b> åç§°ä½œä¸ºå“åº”æ¶ˆæ¯ã€‚
 
--- <b>ÊäÈë¿Ø¼ş</b> --
-- <b>CSM Name</b>: CSM Ä£¿éÃû³Æ.
-- <b>Source CSM Name ('*' as Default)</b>: Éú³É×´Ì¬µÄCSMÄ£¿é¡£Äú¿ÉÒÔÊ¹ÓÃ¡°*¡±À´±íÊ¾ËùÓĞÉú³ÉÏàÍ¬×´Ì¬µÄÄ£¿é¡£
-- <b>Status</b>: ×´Ì¬×Ö·û´®
-- <b>API (if "", same as Status)</b>: ×¢²áºó£¬Èç¹û×´Ì¬·¢Éú±ä»¯£¬½«½ÓÊÕµ½´ËÏûÏ¢¡£
-- <b>Priority(T:As Status,F:As Interrupt)</b>: Èç¹ûÏìÓ¦ÏûÏ¢ÎªFalse£¬Ôò½«Æä²åÈëµ½×´Ì¬¶ÓÁĞµÄÇ°Ãæ£»·ñÔò£¬½«Æä¸½¼Óµ½¶ÓÁĞµÄÎ²²¿¡£
+-- <b>è¾“å…¥æ§ä»¶</b> --
+- <b>CSM Name</b>: CSM æ¨¡å—åç§°.
+- <b>Source CSM Name ('*' as Default)</b>: ç”ŸæˆçŠ¶æ€çš„CSMæ¨¡å—ã€‚æ‚¨å¯ä»¥ä½¿ç”¨â€œ*â€æ¥è¡¨ç¤ºæ‰€æœ‰ç”Ÿæˆç›¸åŒçŠ¶æ€çš„æ¨¡å—ã€‚
+- <b>Status</b>: çŠ¶æ€å­—ç¬¦ä¸²
+- <b>API (if "", same as Status)</b>: æ³¨å†Œåï¼Œå¦‚æœçŠ¶æ€å‘ç”Ÿå˜åŒ–ï¼Œå°†æ¥æ”¶åˆ°æ­¤æ¶ˆæ¯ã€‚
+- <b>Priority(T:As Status,F:As Interrupt)</b>: å¦‚æœå“åº”æ¶ˆæ¯ä¸ºFalseï¼Œåˆ™å°†å…¶æ’å…¥åˆ°çŠ¶æ€é˜Ÿåˆ—çš„å‰é¢ï¼›å¦åˆ™ï¼Œå°†å…¶é™„åŠ åˆ°é˜Ÿåˆ—çš„å°¾éƒ¨ã€‚
 
--- <b>Êä³ö¿Ø¼ş</b> --
-- <b>CSM Name(dup)</b>: ·µ»Ø <b>CSM Name</b>
+-- <b>è¾“å‡ºæ§ä»¶</b> --
+- <b>CSM Name(dup)</b>: è¿”å› <b>CSM Name</b>
 
 ### CSM - Unregister Status Change.vi
 
-È¡Ïû×¢²áÆäËû CSM Ä£¿é×´Ì¬¸ü¸ÄµÄÍ¨Öª¡£
+å–æ¶ˆæ³¨å†Œå…¶ä»– CSM æ¨¡å—çŠ¶æ€æ›´æ”¹çš„é€šçŸ¥ã€‚
 
--- <b>ÊäÈë¿Ø¼ş</b> --
-- <b>CSM Name</b>: CSM Ä£¿éÃû³Æ.
-- <b>Source CSM Name</b>: Éú³É×´Ì¬µÄCSMÄ£¿é¡£Äú¿ÉÒÔÊ¹ÓÃ¡°*¡±À´±íÊ¾ËùÓĞÉú³ÉÏàÍ¬×´Ì¬µÄÄ£¿é¡£
-- <b>Status</b>: ×´Ì¬×Ö·û´®
+-- <b>è¾“å…¥æ§ä»¶</b> --
+- <b>CSM Name</b>: CSM æ¨¡å—åç§°.
+- <b>Source CSM Name</b>: ç”ŸæˆçŠ¶æ€çš„CSMæ¨¡å—ã€‚æ‚¨å¯ä»¥ä½¿ç”¨â€œ*â€æ¥è¡¨ç¤ºæ‰€æœ‰ç”Ÿæˆç›¸åŒçŠ¶æ€çš„æ¨¡å—ã€‚
+- <b>Status</b>: çŠ¶æ€å­—ç¬¦ä¸²
 
--- <b>Êä³ö¿Ø¼ş</b> --
-- <b>CSM Name(dup)</b>: ·µ»Ø <b>CSM Name</b>
+-- <b>è¾“å‡ºæ§ä»¶</b> --
+- <b>CSM Name(dup)</b>: è¿”å› <b>CSM Name</b>
 
 ### CSM - List All Status Registration.vi
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Status Array</b>:
 
 ### CSM - List Mapping Relationships in Broadcast Registry.vi
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Mapping Relationships</b>:
 
 ### CSM - List Rules in Broadcast Registry.vi
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Rules</b>:
 
 ### CSM - List Status in Broadcast Registry.vi
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Status in Registry</b>:
 
 ### CSM - Check Mapping Relationship in Broadcast Registry.vi
 
--- <b>ÊäÈë¿Ø¼ş</b> --
+-- <b>è¾“å…¥æ§ä»¶</b> --
 - <b>CSM Name</b>:
 - <b>Broadcast state</b>:
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Array</b>:
 
 ### CSM - Check Status Registration.vi
 
--- <b>ÊäÈë¿Ø¼ş</b> --
+-- <b>è¾“å…¥æ§ä»¶</b> --
 - <b>CSM Name</b>:
 - <b>Broadcast state</b>:
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>Array</b>:
 
 ### CSM - Remove Module in Broadcast Registry.vi
 
--- <b>ÊäÈë¿Ø¼ş</b> --
+-- <b>è¾“å…¥æ§ä»¶</b> --
 - <b>CSM Name</b>:
 
--- <b>Êä³ö¿Ø¼ş</b> --
+-- <b>è¾“å‡ºæ§ä»¶</b> --
 - <b>CSM Name(dup)</b>:
