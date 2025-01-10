@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: note
 title: CSM API
 id: csm-api
 lang: en

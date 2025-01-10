@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:CSM-Helper
 id: csm-api-11-CSMHelper
 lang: zh-cn
 permalink: /csm-api/11-CSMHelper

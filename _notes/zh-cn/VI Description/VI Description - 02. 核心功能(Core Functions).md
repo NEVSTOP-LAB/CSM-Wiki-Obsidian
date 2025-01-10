@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:核心功能(Core Functions)
 id: csm-api-02-core-functions
 lang: zh-cn
 permalink: /csm-api/02-core-functions

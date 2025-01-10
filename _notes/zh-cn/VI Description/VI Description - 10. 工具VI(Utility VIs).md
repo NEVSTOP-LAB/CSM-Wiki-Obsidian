@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:工具VI(Utility VIs)
 id: csm-api-10-utility-vis
 lang: zh-cn
 permalink: /csm-api/10-utility-vis

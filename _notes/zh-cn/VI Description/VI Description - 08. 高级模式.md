@@ -1,10 +1,12 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:高级模式(Advanced Mode)
 id: csm-api-08-advance-modes
 lang: zh-cn
 permalink: /csm-api/08-advance-modes
 ---
+
+# 高级模式(Advanced Mode)
 
 > [!NOTE] 名称拼接API
 > 这个 VI 只操作了模块名称字符串，并没有实际功能，因此当熟悉 CSM 规则后，可以直接输入对应的名称字符串和规则符号，不是必须调用此API.

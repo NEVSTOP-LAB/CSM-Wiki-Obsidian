@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:Status Subscription Management
 id: csm-api-06-status-registration
 lang: en
 permalink: /csm-api/06-status-registration

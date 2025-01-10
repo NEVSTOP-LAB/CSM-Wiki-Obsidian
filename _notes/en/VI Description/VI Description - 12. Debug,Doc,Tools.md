@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:Debug Doc Tools
 id: csm-api-12-Debug-Doc-Tools
 lang: en
 permalink: /csm-api/12-Debug-Doc-Tools

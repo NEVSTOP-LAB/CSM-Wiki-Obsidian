@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:管理接口(Management API)
 id: csm-api-04-management-api
 lang: zh-cn
 permalink: /csm-api/04-management-api

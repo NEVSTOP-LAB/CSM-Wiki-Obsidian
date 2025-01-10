@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:Internal
 id: csm-api-01-templates
 lang: zh-cn
 permalink: /csm-api/13-internal

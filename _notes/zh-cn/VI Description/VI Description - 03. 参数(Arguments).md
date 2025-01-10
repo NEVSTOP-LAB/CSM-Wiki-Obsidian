@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:参数(Arguments)
 id: csm-api-03-arguments
 lang: zh-cn
 permalink: /csm-api/03-arguments

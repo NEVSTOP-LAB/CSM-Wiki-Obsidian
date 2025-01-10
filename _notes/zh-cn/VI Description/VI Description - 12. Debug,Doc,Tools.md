@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:调试文档工具(Debug Doc Tools)
 id: csm-api-12-Debug-Doc-Tools
 lang: zh-cn
 permalink: /csm-api/12-Debug-Doc-Tools

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:状态订阅管理(Status Registration)
 id: csm-api-06-status-registration
 lang: zh-cn
 permalink: /csm-api/06-status-registration

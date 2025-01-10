@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:Management API
 id: csm-api-04-management-api
 lang: en
 permalink: /csm-api/04-management-api

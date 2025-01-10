@@ -1,6 +1,6 @@
 ---
-layout: page
-title: CSM API
+layout: note
+title: CSM API:Built-in Addons
 id: csm-api-09-build-in-addons
 lang: en
 permalink: /csm-api/09-build-in-addons

@@ -1,7 +1,7 @@
 ---
-layout: page
-title: CSM API
-id: csm-api-01-templates
+layout: note
+title: CSM API:Internal
+id: csm-api-13-internal
 lang: en
 permalink: /csm-api/13-internal
 ---
