@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Arguments
 id: csm-api-03-arguments
 lang: en
-permalink: /csm-api/03-arguments
 ---
 
 ## Arguments

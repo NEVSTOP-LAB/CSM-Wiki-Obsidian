@@ -3,7 +3,6 @@ layout: note
 title: CSM API:全局日志(Global Log)
 id: csm-api-07-global-log
 lang: zh-cn
-permalink: /csm-api/07-global-log
 ---
 
 ## 全局日志(Global Log)

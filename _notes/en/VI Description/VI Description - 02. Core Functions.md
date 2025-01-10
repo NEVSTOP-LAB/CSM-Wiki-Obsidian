@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Core Functions
 id: csm-api-02-core-functions
 lang: en
-permalink: /csm-api/02-core-functions
 ---
 
 ## Core Functions

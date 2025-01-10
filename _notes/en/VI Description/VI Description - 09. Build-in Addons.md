@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Built-in Addons
 id: csm-api-09-build-in-addons
 lang: en
-permalink: /csm-api/09-build-in-addons
 ---
 
 ## Built-in Addons

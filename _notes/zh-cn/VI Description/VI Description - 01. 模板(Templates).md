@@ -3,7 +3,6 @@ layout: note
 title: CSM API:模板(Templates)
 id: csm-api-01-templates
 lang: zh-cn
-permalink: /csm-api/01-templates
 ---
 
 

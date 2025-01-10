@@ -3,7 +3,6 @@ layout: note
 title: CSM API:高级模式(Advanced Mode)
 id: csm-api-08-advance-modes
 lang: zh-cn
-permalink: /csm-api/08-advance-modes
 ---
 
 # 高级模式(Advanced Mode)

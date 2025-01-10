@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Utility VIs
 id: csm-api-10-utility-vis
 lang: en
-permalink: /csm-api/10-utility-vis
 ---
 
 ## Utility VIs

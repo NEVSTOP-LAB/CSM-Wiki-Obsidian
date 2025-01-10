@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Templates
 id: csm-api-01-templates
 lang: en
-permalink: /csm-api/01-templates
 ---
 
 ## Templates

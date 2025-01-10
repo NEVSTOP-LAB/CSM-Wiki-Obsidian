@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Module Operation API
 id: csm-api-05-module-operation-api
 lang: en
-permalink: /csm-api/05-module-operation-api
 ---
 
 ## Module Operation API

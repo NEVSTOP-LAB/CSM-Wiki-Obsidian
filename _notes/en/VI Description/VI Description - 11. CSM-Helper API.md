@@ -3,7 +3,6 @@ layout: note
 title: CSM API:CSM-Helper
 id: csm-api-11-CSMHelper
 lang: en
-permalink: /csm-api/11-CSMHelper
 ---
 
 ## CSM-Helper API

@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Global Log
 id: csm-api-07-global-log
 lang: en
-permalink: /csm-api/07-global-log
 ---
 
 ## Global Log

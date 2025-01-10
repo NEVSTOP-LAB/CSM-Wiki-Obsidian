@@ -3,7 +3,6 @@ layout: note
 title: CSM API:模块操作接口(Module Operation API)
 id: csm-api-05-module-operation-api
 lang: zh-cn
-permalink: /csm-api/05-module-operation-api
 ---
 
 ## 模块操作接口(Module Operation API)

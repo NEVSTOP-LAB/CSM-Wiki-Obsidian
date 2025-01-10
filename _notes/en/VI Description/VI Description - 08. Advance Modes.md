@@ -3,7 +3,6 @@ layout: note
 title: CSM API:Advance Modes
 id: csm-api-08-advance-modes
 lang: en
-permalink: /csm-api/08-advance-modes
 ---
 
 ## Advance Modes
